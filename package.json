@@ -1,0 +1,30 @@
+{
+  "name": "steam-mobile-confirmer",
+  "version": "1.0.0",
+  "description": "Automatically confirm trades on an account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waylaidwanderer/steam-mobile-confirmer.git"
+  },
+  "keywords": [
+    "steam",
+    "mobile",
+    "confirm",
+    "trade"
+  ],
+  "author": "waylaidwanderer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waylaidwanderer/steam-mobile-confirmer/issues"
+  },
+  "homepage": "https://github.com/waylaidwanderer/steam-mobile-confirmer#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "steam-totp": "^1.4.0",
+    "steamcommunity": "^3.30.7"
+  }
+}
